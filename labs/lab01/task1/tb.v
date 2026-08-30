@@ -24,6 +24,7 @@ module tb;
     end
   end
 
+
   initial begin
     t_a = 0; t_b = 0; t_cin = 0;
     #5 t_a = 0; t_b = 0; t_cin = 1;
